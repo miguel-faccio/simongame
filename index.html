@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Simon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="game-container">
+    <h1>Jogo Simon</h1>
+    <div id="game">
+        <div id="game-board">
+            <div id="pyro" class="game-button"></div>
+
+            <div id="geo" class="game-button"></div>
+            <div id="dendro" class="game-button"></div>
+            <div id="anemo" class="game-button"></div>
+            <div id="cryo" class="game-button"></div>
+            <div id="hydro" class="game-button"></div>
+            <div id="electro" class="game-button"></div>
+        </div>
+    </div>
+    <p>Pontuação: <span id="score">0</span></p>
+    <button id="start-game">Iniciar Jogo</button>
+    <p id="game-message"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
